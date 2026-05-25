@@ -98,4 +98,3 @@ O Backoffice é a aplicação restrita utilizada pela equipe interna da NitroGea
 * **Segurança:** Toda a área do Backoffice e as rotas de checkout do Storefront devem exigir autenticação estrita. Senhas devem ser criptografadas antes do armazenamento.
 * **Persistência:** Banco de dados relacional sólido para assegurar a integridade referencial entre produtos, estoques, clientes e pedidos.
 * **Desempenho:** Carregamento rápido de imagens e componentes de interface para mitigar a taxa de rejeição no Storefront.
-"""
