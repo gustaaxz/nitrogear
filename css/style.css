@@ -2,3 +2,48 @@
     padding: 0;
     margin: 0;
 }
+
+.container {
+    width: 50%;
+    height: auto;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 2;
+}
+
+#header-logo {
+    max-width: 18rem;
+    height: auto;
+}
+
+.header-left {
+    background-color: aquamarine;
+}
+
+.header-middle {
+    background-color: bisque;
+}
+
+.search-box {
+    display: flex;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: violet;
+}
+
+.header-top-categories {
+    background-color: cadetblue;
+}
+
+.categories-menu {
+    display: flex;
+    flex-direction: row;
+}
